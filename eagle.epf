@@ -344,8 +344,8 @@ UsedLibrary="Stir Plate.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1241 364 1840 763"
-State=3
+Loc="200 289 799 688"
+State=2
 Number=0
 
 [Desktop]
