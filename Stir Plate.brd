@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -121,7 +121,6 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
@@ -720,57 +719,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="137.29" y1="89.99" x2="141.48" y2="94.18" width="0.6096" layer="16"/>
 <wire x1="141.48" y1="94.18" x2="153.04" y2="94.18" width="0.6096" layer="16"/>
 <wire x1="153.04" y1="94.18" x2="155.725" y2="96.865" width="0.6096" layer="16"/>
-<polygon width="0.6096" layer="16" isolate="0.3048">
-<vertex x="123.98" y="118.18"/>
-<vertex x="128.48" y="118.18"/>
-<vertex x="128.48" y="122.68"/>
-<vertex x="154.48" y="122.68"/>
-<vertex x="154.48" y="117.68"/>
-<vertex x="147.48" y="117.68"/>
-<vertex x="147.48" y="121.18"/>
-<vertex x="144.48" y="121.18"/>
-<vertex x="144.48" y="117.68"/>
-<vertex x="141.98" y="117.68"/>
-<vertex x="141.98" y="121.18"/>
-<vertex x="129.98" y="121.18"/>
-<vertex x="129.98" y="116.18"/>
-<vertex x="138.98" y="116.18"/>
-<vertex x="138.98" y="113.68"/>
-<vertex x="137.48" y="113.68"/>
-<vertex x="137.48" y="106.68"/>
-<vertex x="130.48" y="106.68"/>
-<vertex x="130.48" y="95.68"/>
-<vertex x="140.98" y="95.68"/>
-<vertex x="140.98" y="94.68"/>
-<vertex x="153.48" y="94.68"/>
-<vertex x="153.48" y="95.18"/>
-<vertex x="158.98" y="95.18"/>
-<vertex x="158.98" y="92.18"/>
-<vertex x="154.48" y="92.18"/>
-<vertex x="154.48" y="87.68"/>
-<vertex x="150.48" y="87.68"/>
-<vertex x="150.48" y="91.68"/>
-<vertex x="144.48" y="91.68"/>
-<vertex x="144.48" y="93.18"/>
-<vertex x="140.98" y="93.18"/>
-<vertex x="140.98" y="87.68"/>
-<vertex x="134.48" y="87.68"/>
-<vertex x="134.48" y="88.68"/>
-<vertex x="137.98" y="88.68"/>
-<vertex x="137.98" y="93.68"/>
-<vertex x="135.48" y="93.68"/>
-<vertex x="135.48" y="89.18"/>
-<vertex x="133.98" y="89.18"/>
-<vertex x="133.98" y="93.68"/>
-<vertex x="130.98" y="93.68"/>
-<vertex x="130.98" y="87.68"/>
-<vertex x="128.48" y="87.68"/>
-<vertex x="128.48" y="92.18"/>
-<vertex x="123.98" y="92.18"/>
-<vertex x="123.98" y="111.68"/>
-<vertex x="126.48" y="111.68"/>
-<vertex x="126.48" y="113.68"/>
-<vertex x="123.98" y="113.68"/>
+<polygon width="0.4064" layer="16">
+<vertex x="124.5" y="88"/>
+<vertex x="158.5" y="88"/>
+<vertex x="158.5" y="122"/>
+<vertex x="124.5" y="122"/>
+<vertex x="124.5" y="116.5"/>
+<vertex x="124.5" y="102.5"/>
 </polygon>
 </signal>
 <signal name="N$2">
